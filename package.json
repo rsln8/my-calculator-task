@@ -1,0 +1,17 @@
+{
+  "name": "my-calculator-task",
+  "version": "1.0.0",
+  "description": "Calculator task with vitest",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsln8/my-calculator-task.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^4.1.8"
+  }
+}
