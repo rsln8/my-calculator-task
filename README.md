@@ -1,5 +1,7 @@
 ﻿# Calculator Task
 
+![test-check](https://github.com/rsln8/my-calculator-task/actions/workflows/test-check.yml/badge.svg?branch=source)
+
 ## Задание
 
 Напишите функцию `calculator(a, operator, b)` в файле `src/index.js`.
