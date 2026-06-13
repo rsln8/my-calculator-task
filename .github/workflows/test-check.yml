@@ -33,7 +33,7 @@ jobs:
       - name: Prepare template
         run: |
           git checkout --orphan temp-main
-          echo '' > src/index.js
+          truncate -s 0 src/index.js
           git add -A
           git commit --no-verify -m "Rebuild template (auto)"
           git push -f --no-verify origin temp-main:main
